@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <title>Neuropixel Data to 3D Visualisation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/neuro_pixel_mindmap.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <style>
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column {
+        flex: 1 1 100%;
+    }
+    @media (min-width: 768px) {
+        .column {
+            flex: 1 1 50%;
+        }
+    }
+    @media (min-width: 1024px) {
+        .column {
+            flex: 1 1 33.33%;
+        }
+    }
+    body {
+        font-size: 16px;
+    }
+    @media (max-width: 768px) {
+        body {
+            font-size: 14px;
+        }
+    }
+    .carousel, .publication-video {
+        width: 100%;
+        height: auto;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Neuropixel Data to 3D Visualisation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <target="_blank">Nancy, He, Yihan Zhao, Kangjun Ji, Zhuolin, Shi, Chang Su, Ming Zhu, Migliorini, Vittorio</a></sup>,</span>
+                <span class="author-block">
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">4509 Group project - Imperial PixelMinds<br>Supervisor: Prof. Claudia Clopath​, GTA: Mr. Albesa Gonzalez, Albert</span>
+                  </div>
+
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="static/images/neuro_pixel_jpeg.png" alt="Teaser Image" height="100%">
+      <h2 class="subtitle has-text-justified has-text-centered">
+        <!-- Add space between sections -->
+        <div style="margin-top: 50px;"></div>
+        This mind map outlines the process of converting Neuropixel data into 3D visualizations of neural activity, divided into three key areas: Background, which explores intra-cortex communication, decision-making, and neural activity mapping using experimental and deep learning approaches; Data Analysis, which details methods like noise reduction, spike sorting, regression models, and statistical validation to extract accurate neural signals; and 3D Visualization of Spikes Location, which focuses on mapping neural spike data onto the Allen Mouse Brain Atlas using tools like Brainrender, Blender, and Python to create high-resolution 3D visual representations.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The Imperial Pixelminds project focuses on transforming Neuropixel data from 2D to 3D visualizations of neuronal activity in the mouse brain. Neuropixels are advanced probes that capture electrical signals from neurons and are typically visualized using the Allen Mouse Brain Common Coordinate Framework (CCF) in a 2D format. This project aims to overcome the limitations of 2D visualizations by developing a 3D Brainrender model to improve image clarity and spatial precision.
+          </p>
+          <p>
+            The project is divided into four steps: (1) Spike Categorization: Applying vision, action, and choice kernels with half-Gaussian filters to classify neuronal spikes. (2) 3D Spike Localization: Using the Adam optimization algorithm to map spike coordinates from Neuropixel channel data. (3) Spike Allocation in a 3D Brain Model: Plotting 1,000 spike locations onto a 3D mouse brain model. (4) Spike Functionality Visualization: Assigning each spike a functional category and creating a chromatic 3D brain image.
+          </p>
+          <p>
+            The team identifies technical, project management, and resource risks, emphasizing robust documentation and effective communication. Their ultimate goal is to advance neural mapping, enhance data interpretation, and contribute to a new 3D visualization platform for computational neuroscience research.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Add space between sections -->
+<div style="margin-top: 50px;"></div>
+
+<!-- Updated Process Step 1 -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-left">Updated Process Step 1</h2>
+      <div class="has-text-centered">
+        <img src="static/images/updated_progress_step1.png" alt="Teaser Image" height="100%">
+        <h2 class="subtitle has-text-justified has-text-centered">
+          By fitting the data with the vision, action, and choice kernels defined in the referenced article, and employing half-Gaussian filters, we gain a comprehensive understanding of the data processing pipeline. This approach allows us to effectively assign each spike to a specific function by capturing the underlying patterns in neural activity. The use of these kernels ensures that the functional categories—vision, action, and choice—are represented with high precision, while the half-Gaussian filters enhance the sensitivity of the model, allowing for a more accurate mapping of spikes to their respective functions. This methodology not only deepens our insight into the neural processes at play but also ensures that each spike is correctly classified, providing a robust framework for functional analysis.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Updated Process Step 1 -->
+
+<!-- Add space between sections -->
+<div style="margin-top: 50px;"></div>
+
+<!-- Updated Process Step 2 -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-left">Updated Process Step 2</h2>
+      <div class="has-text-centered">
+        <img src="static/images/updated_progress_step2_v2.png" alt="Teaser Image" height="100%">
+        <h2 class="subtitle has-text-justified has-text-centered">
+          <!-- Add space between sections -->
+          <div style="margin-top: 50px;"></div>
+          The left image shows the result using standard linear gradient descent, which demonstrates poor performance due to its slow and ineffective convergence. After applying the Adam optimizer, the convergence improved significantly, yielding the expected results. However, the learning curve still does not follow the desired exponential decay pattern. Moving forward, we plan to explore alternative optimization algorithms and different formulations to enhance the training process. Additionally, we aim to identify and remove potential outliers from the dataset to evaluate whether this improves convergence performance.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Updated Process Step 2 -->
+
+<!-- Upcoming Process Step 3 & 4 -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-left">Upcoming Process Step 3 & 4</h2>
+      <div class="has-text-centered">
+        <img src="static/images/updated_progress_step3&4.png" alt="Teaser Image" height="100%">
+        <h2 class="subtitle has-text-justified has-text-centered">
+          <!-- Add space between sections -->
+          <div style="margin-top: 50px;"></div>
+          In Step 3, by mapping the spatial locations of 1,000 spikes onto an imported 3D mouse brain model, we can achieve a comprehensive 3D visualization of spike distribution, effectively enabling precise spike localization. In Step 4, building on the work completed in Step 1, we can assign each spike to its corresponding functionality. We will then visualize functional categories—such as vision, action, and choice—by representing each with a distinct color. This approach transforms the 3D brain model into a chromatic image, analogous to the original 2D visualization, enhancing our ability to interpret functional regions in three dimensions.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Upcoming Process Step 3&4 -->
+
+<!-- Project Schedule-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3 has-text-left">Project Schedule</h2>
+      <div class="has-text-centered">
+        <img src="static/images/project_schedule.png" alt="Teaser Image" height="100%">
+        <h2 class="subtitle has-text-justified has-text-centered">
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Updated Process Step 1 -->
+
+<!-- Reference carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item has-text-centered">
+          <!-- Centered image -->
+          <img src="static/images/ref_1.png" alt="MY ALT TEXT" class="mx-auto">
+          <h2 class="subtitle has-text-centered"></h2>
+        </div>
+        <div class="item has-text-centered">
+          <!-- Centered image -->
+          <img src="static/images/ref_2.png" alt="MY ALT TEXT" class="mx-auto">
+          <h2 class="subtitle has-text-centered"></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Reference carousel -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies project page</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
